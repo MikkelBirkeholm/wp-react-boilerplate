@@ -1,0 +1,139 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/pages/Home/Home.module.scss ***!
+  \**********************************************************************************************************************************************************************************/
+.Home-module__home__Fbzsv {
+  width: auto;
+}
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles/global.scss ***!
+  \*********************************************************************************************************************************************/
+/*
+Theme Name: Custom Theme
+Author: Mikkel Birkeholm
+Description: A WordPress theme with React
+Version: 1.0
+Text Domain: custom-theme
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #232d2d;
+  color: #aeb8b2;
+  font-family: "Merriweather", serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+  width: clamp(2ch, 1100px, 95vw);
+  margin: 0 auto;
+}
+body main {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+dialog {
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding: 0.3rem 0.5rem;
+}
+
+hr {
+  background-color: #90f996;
+  border: none;
+  width: 100%;
+  height: 1px;
+}
+
+button {
+  background-color: #313333;
+  border: none;
+  color: #b0c5b8;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #90f996;
+  color: #313333;
+}
+button:disabled {
+  cursor: not-allowed;
+  color: #313333;
+  background-color: #aeb8b2;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #b0c5b8;
+}
+a:hover {
+  color: #aeff59;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  color: #09bb13;
+  font-family: "DM Sans", sans-serif;
+}
+
+.prewrap {
+  white-space: pre-wrap;
+}
+
+#root {
+  isolation: isolate;
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/components/Header/Header.module.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.Header-module__header__k5rxh nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}

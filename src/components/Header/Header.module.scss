@@ -1,0 +1,7 @@
+.header {
+  nav {
+    ul {
+      @include flex(row, flex-end, center, 1rem);
+    }
+  }
+}
